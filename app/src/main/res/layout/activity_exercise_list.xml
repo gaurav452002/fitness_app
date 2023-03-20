@@ -1,0 +1,38 @@
+<!-- activity_exercise_list.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/heading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Select Target Muscle"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="35dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:padding="3dp"
+    android:paddingLeft="25dp"
+    android:layout_marginLeft="20dp"
+    />
+    <ListView
+
+        android:id="@+id/simpleListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="#f000"
+        android:dividerHeight="2dp"
+        android:listSelector="#9B26B6"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/gymlogo"/>
+</LinearLayout>
