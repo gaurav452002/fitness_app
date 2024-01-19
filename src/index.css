@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.trainer-grid {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.grid-header, .client-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.client-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.client-row:last-child {
+  border-bottom: none;
+}
+
+.action-buttons button {
+  margin-left: 5px;
+}
+
+.appointment-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.appointment-modal.open {
+  display: block;
+}
+
+.calendar-view {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.calendar-entry {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
