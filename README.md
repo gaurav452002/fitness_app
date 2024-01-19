@@ -19,7 +19,7 @@ Follow these steps to run the Fitness Trainer Calendar App locally:
 
 2. **Navigate to the Project Folder:**
    ```bash
-   cd fitness-trainer-calendar
+   cd fitness_app
    ```
 
 3. **Install Dependencies:**
