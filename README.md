@@ -14,7 +14,7 @@ Follow these steps to run the Fitness Trainer Calendar App locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/fitness-trainer-calendar.git
+   git clone https://github.com/gaurav452002/fitness_app
    ```
 
 2. **Navigate to the Project Folder:**
